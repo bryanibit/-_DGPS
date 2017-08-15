@@ -86,8 +86,8 @@ int main()
     }
     else
     {
-      originx = (originx+(iter->first))/2;
-      originy = (originy+(iter->second))/2;
+      originx = (originx+(iter->first))/2.0;
+      originy = (originy+(iter->second))/2.0;
     }
   }
   // find the max error;
